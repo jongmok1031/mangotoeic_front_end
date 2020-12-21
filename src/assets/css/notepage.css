@@ -1,0 +1,56 @@
+.section-ls {
+  padding-top: 1rem;
+  padding-bottom: 6rem;
+}
+.centerh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  font-size: 2rem;
+  font-family: "GmarketSansMedium";
+}
+
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.some-page-wrapper {
+  margin: 15px;
+  background-color: transparent;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.vocab {
+  font-size: 20px;
+  font-family: "Arial" !important;
+  text-align: center;
+}
+
+.meaning {
+  font-size: 18px;
+  font-family: "Times" !important;
+  text-align: left;
+}
